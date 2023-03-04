@@ -37,6 +37,14 @@ console.log(b)
 console.log(y)
 console.log(x)
 
+   console.log(typeof a)
+   console.log(typeof c)
+   console.log(typeof str)
+   console.log(typeof b)
+   console.log(typeof y)
+   console.log(typeof x )           
+
+
 document.write(a+'<br>')
 document.write(c+'<br>')
 document.write(str+'<br>')
