@@ -99,3 +99,17 @@ document.write( coffeeRecipe +'<br>'+'<br>'+ step1 +'<br>'+step2 +'<br>'+ step3 
 
 console.log (step7)
 
+//===============Review 1 homework from Tatiana Volk=========================
+
+//====== Задача 1 Напишите формулу, которая вычисляет BMI (Body Mass Index), 
+//  BMI = вес (кг)/ рост (м) в квадрате. Напечатайте результат в консоли. Выведите вместе сo своим именем на страницу=================================
+
+let weight = 55
+let growth = 152
+let square = 2
+let bmi1 = weight/growth
+let bmi = bmi1**square
+console.log(bmi)
+document.write(`Svetlana Tr bmi = ${bmi}`)
+
+
