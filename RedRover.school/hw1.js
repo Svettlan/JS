@@ -99,7 +99,7 @@ let step7 = "Ваш кофе готов!"
 console.log ( coffeeRecipe)
 console.log(step1)
 console.log(step2)
-console.log(step3 )
+console.log(step3)
 console.log(step4) 
 console.log(step5)
 console.log(step6) 
