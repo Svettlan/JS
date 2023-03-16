@@ -77,14 +77,14 @@ let add
 add = "сливки"
 add = "молоко"
 
-document.write("Рецепт приготовления кофе в турке:"+'<br>'+'<br>')
-document.write("1.Прокалить турку на огне"+'<br>')
-document.write("2.Засыпать сахар по вкусу"+'<br>')
-document.write("3.Влить холодную воду"+'<br>')
-document.write("4.Поставить турку на маленький огонь"+'<br>')
-document.write("5.Не допускать, чтобы напиток вскипел"+'<br>')
-document.write(`6.В готовый кофе добавить ${add}` +'<br>')
-document.write("Ваш кофе готов!"+'<br>'+'<br>')
+// document.write("Рецепт приготовления кофе в турке:"+'<br>'+'<br>')
+// document.write("1.Прокалить турку на огне"+'<br>')
+// document.write("2.Засыпать сахар по вкусу"+'<br>')
+// document.write("3.Влить холодную воду"+'<br>')
+// document.write("4.Поставить турку на маленький огонь"+'<br>')
+// document.write("5.Не допускать, чтобы напиток вскипел"+'<br>')
+// document.write(`6.В готовый кофе добавить ${add}` +'<br>')
+// document.write("Ваш кофе готов!"+'<br>'+'<br>')
 
 let coffeeRecipe = "Рецепт приготовления кофе в турке:"
 
@@ -95,9 +95,17 @@ let step4 = "4.Поставить турку на маленький огонь"
 let step5 = "5.Не допускать, чтобы напиток вскипел"
 let step6 = `6.В готовый кофе добавить ${add}`
 let step7 = "Ваш кофе готов!"
-document.write( coffeeRecipe +'<br>'+'<br>'+ step1 +'<br>'+step2 +'<br>'+ step3 +'<br>' + step4 +'<br>'+ step5 +'<br>'+ step6 +'<br>'+ step7)
+// document.write( coffeeRecipe +'<br>'+'<br>'+ step1 +'<br>'+step2 +'<br>'+ step3 +'<br>' + step4 +'<br>'+ step5 +'<br>'+ step6 +'<br>'+ step7)
+console.log ( coffeeRecipe)
+console.log(step1)
+console.log(step2)
+console.log(step3 )
+console.log(step4) 
+console.log(step5)
+console.log(step6) 
+console.log(step7)
 
-console.log (step7)
+// console.log (step7)
 
 //===============Review 1 homework from Tatiana Volk=========================
 
@@ -110,6 +118,36 @@ let square = 2
 let bmi1 = weight/growth
 let bmi = bmi1**square
 console.log(bmi)
-document.write(`Svetlana Tr bmi = ${bmi}`)
+// document.write(`Svetlana Tr bmi = ${bmi}`)
 
+// ======================== Задача 2 Создайте две переменные с любыми значениями. 
+// ====================== Напишите программу, которая поменяет эти значения местами. Update. 
+// ===================== То же задание с числовыми переменными. Будет ли разница? ==========================================
 
+// let hello = 'Hello world!'
+// let message =  "Hi"
+// let temp
+
+// console.log(hello)
+// console.log(message)
+
+// temp = hello
+// hello = message
+// message = temp
+
+// console.log(hello)
+// console.log(message)
+
+let hello = 5
+let message = 9
+let temp
+
+console.log(hello)
+console.log(message)
+
+temp = hello
+hello = message
+message = temp
+
+console.log(hello)
+console.log(message)
