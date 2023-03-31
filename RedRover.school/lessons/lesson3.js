@@ -51,9 +51,9 @@
 // // console.log(str1)
 
 // ================================ Вывести элементы в обратном порядке ==============================
- let str = 0
- let arr3 = [ "agagag ", "hello", 5, -10, "hihi", true, "byebye", false, 8, 9,["hi", true, 8, "="]]
-for (let i= arr3.length- 1; i >= 0; i--){
-    console.log (i)
-    console.log (arr3[i])
-}
+//  let str = 0
+//  let arr3 = [ "agagag ", "hello", 5, -10, "hihi", true, "byebye", false, 8, 9,["hi", true, 8, "="]]
+// for (let i= arr3.length- 1; i >= 0; i--){
+//     console.log (i)
+//     console.log (arr3[i])
+// }
