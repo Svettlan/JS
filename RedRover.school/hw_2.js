@@ -14,6 +14,17 @@
 //     // document.write("vacation denied");
 //     console.log ("vacation denied")
 // }
+//=====================================
+//============= 2 вариант =============
+// let myMonth = 'July'
+// myMonth = myMonth.toLowerCase()
+
+// if (myMonth == 'july' || myMonth == 'august') {
+//     console.log('vacation approved')
+// }
+// else console.log('vacation denied')
+
+
 
 // =========== Напишите простенький калькулятор (*, /, +, -). 
 // =========== Проверьте ваш код на охват исключений для арифметических операций.
