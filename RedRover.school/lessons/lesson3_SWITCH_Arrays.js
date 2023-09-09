@@ -60,7 +60,7 @@
 // console.log(letters.at(-2)                // ' f ' значение
 
 // ============================= Обращение к несуществующему элементу в массиве ====================
-//  - undefiend
+//  ответ- undefiend
 
 
 /* for (initializator; condition; step()){
