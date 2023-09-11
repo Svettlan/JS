@@ -1,58 +1,58 @@
 // ==================Массивы/Array (упорядоченная коллекция данных)
-// // Объявляем пустой массив:
+// //------------- Объявляем пустой массив: ----------------
 // const array = []
-// // или так:
+// //----- или так:------
 // const arr = new Array()
-// // Один массив может содержать элементы разных типов:
+// // ---------------Один массив может содержать элементы разных типов:------------
 // const arrayAll = [1,-2,'33', 'strawberry', [1,'second'], null, {type: 'int'}]
 
 
-// console.log(arrayAll[0])   // обращение к нулевому элементу массива
-// console.log(arrayAll[arrayAll.length - 1])   // обращение к последнему элементу массива
-// console.log(arrayAll[4])  //обращение к 4 элементу(массиву) => [ 1, 'second' ]
-// console.log(arrayAll[4][1])    // => 'second'
+// console.log(arrayAll[0])                            // обращение к нулевому элементу массива
+// console.log(arrayAll[arrayAll.length - 1])          // обращение к последнему элементу массива
+// console.log(arrayAll[4])                            //обращение к 4 элементу(массиву) => [ 1, 'second' ]
+// console.log(arrayAll[4][1])                         // => 'second'
 
 
 // const arrB = [8, ,5, ,9]
-// console.log(arrB[1])        // undefined
-// console.log(arrB)    //-?
+// console.log(arrB[1])                               // undefined
+// console.log(arrB)                                  //-?
 
 
-// // Можем перезаписывать элементы массива даже если массив объявлен с const
+// //----------------- Можем перезаписывать элементы массива даже если массив объявлен с const-----------------------
 // arrB[3] = 3
 // console.log(arrB)
-// // или расширять массив: (но так лучше не делать!)
+// // ----------------- или расширять массив: (но так лучше не делать!)
 // arrB[8] = 0
-// console.log(arrB)       //[ 8, <1 empty item>, 5, 3, 9, <3 empty items>, 0 ]
-// console.log(arrB.length)  // 9
+// console.log(arrB)                                //[ 8, <1 empty item>, 5, 3, 9, <3 empty items>, 0 ]
+// console.log(arrB.length)                         // 9
 
 
 // const arr1 = [1, 2, 3, 4, 5]
 // arr1.length = 2
-// console.log(arr1)    // [ 1, 2 ]
+// console.log(arr1)                                // [ 1, 2 ]
 // arr1.length = 5
-// console.log(arr1)    // [ 1, 2, <3 empty items> ]
+// console.log(arr1)                                // [ 1, 2, <3 empty items> ]
 // arr1.length = 0
-// console.log(arr1)    //[]
+// console.log(arr1)                                //[]
 
 
 // Не сравнивайте массивы с помощью ==
 // const arrNum1 = [1, 2]
 // const arrNum2 = [1, 2]
-// console.log(arrNum1 == arrNum2)    // false
-// console.log([] == [])               // false
+// console.log(arrNum1 == arrNum2)       // false
+// console.log([] == [])                 // false
 
 
 // const arrNumClone = arrNum1
-// console.log(arrNumClone == arrNum1)  // true
-// console.log(null == undefined)  // true
+// console.log(arrNumClone == arrNum1)   // true
+// console.log(null == undefined)        // true
 
 
-// !!Два объекта равны друг другу == только в том случае, если они ссылаются на один и тот же объект!!
-// За исключением null и undefined, которые равны == друг другу и ничему больше.
+//--------------  !! Два объекта равны друг другу == только в том случае, если они ссылаются на один и тот же объект!!--------------------
+// ---------------- За исключением null и undefined, которые равны == друг другу и ничему больше.---------------------
 
 
-//====================for loop
+//=======================================   for loop ================================
 // const arrayNumbers = [1, 2, -5, 10]
 // let sum = 0
 // for(let i = 0; i < arrayNumbers.length; i++) {
