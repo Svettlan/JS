@@ -135,5 +135,29 @@ if (cupSize =="small"){
 // console.log ('sum2 = ', sum2)
 // if (sum1 != sum2)    
 //    console.log ('присутствуют непарные элементы')
+// ====================================================================================================================
+
+// Имеется зашифрованное предложение 
+// “Ybrobrubr brabrrbrebr brtbrhbrebr brbbrebrsbrtbr brQbrAbr brebrvbrebrrbr”
+// оно означает “You are the best QA ever”.
+// нужно придумать программу дешифратор.
+
+// // coder
+// let text = 'You are the best QA ever'
+// let newText = ''
+// for (let i = 0; i < text.length; i++){
+//        newText = newText + text[i] + "br"   
+// }
+// onsole.log(newText)
+
+// // decoder
+
+// let decoderResult = ''
+// for (let i = 0; i< newText.length; i += 3){
+//     decoderResult = decoderResult + newText[i]
+// }
+// console.log (decoderResult)
+// ================================================================================
+
 
    
