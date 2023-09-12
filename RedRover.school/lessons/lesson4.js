@@ -49,7 +49,7 @@
 
 // ======================================= FOR IN ===========================================
 /* for (key in object){
-    code bloke to be executed
+    code bloke to be executed    // код, который нужно выполнить
 }
 */
 // const numbers = [45, 4, 9, 16, 25]
